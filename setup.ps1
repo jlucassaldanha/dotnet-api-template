@@ -32,7 +32,5 @@ dotnet add "$PROJECT_NAME.Api/$PROJECT_NAME.Api.csproj" package Microsoft.Entity
 Write-Host "6. Adicionando .gitignore e iniciando repositório git"
 dotnet new gitignore
 git init
-git add .
-git commit -m "Initial commit"
 
 Write-Host "Configuração concluída com sucesso. O projeto $PROJECT_NAME está pronto."

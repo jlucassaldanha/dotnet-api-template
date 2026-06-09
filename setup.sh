@@ -50,7 +50,5 @@ echo "6. Adicionando .gitignore e iniciando repositório git"
 dotnet new gitignore
 
 git init
-git add .
-git commit -m "Initial commit"
 
 echo "Configuração concluída com sucesso. O projeto $PROJECT_NAME está pronto."
